@@ -1,3 +1,9 @@
+# I didn't use functions in the version that I made; this was taken from 
+# Angela Yu's Finished project course and here for me to have quick access to 
+# and review 
+
+# This just replaces the highest number in the highest bid and the name tied 
+# to that number from the dictionary is declared the winner. 
 def find_highest_bidder(bidding_dictionary):
     winner = ""
     highest_bid = 0
@@ -9,6 +15,9 @@ def find_highest_bidder(bidding_dictionary):
 
     print(f"The winner is {winner} with a bid of ${highest_bid}.")
 
+# The dictionary containing the values from the inputs outside the while loop
+# While more bidders say "yes" they keep answering the inputs and get added to the dict
+# The loop ends when they say "no" and the function gets called to find the highest bidder. 
 bids = {}
 continue_bidding = True
 while continue_bidding:
